@@ -1,8 +1,5 @@
 package ex_26Aug2025;
 
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class Sept1 {
     public static void main(String[] args) {
 
@@ -42,7 +39,7 @@ public class Sept1 {
 //  **** From the array of salaries, find the second max salary
 //  Method 1
     int mx = 1;
-    int secmx = 1;
+    int secondmx = 1;
     int a=0;
         for(int i=1; i<salaries.length; i++){
             if(salaries[i] > mx){
@@ -51,10 +48,10 @@ public class Sept1 {
             }
         }
         for(int i=0; i<salaries.length; i++){
-            if((salaries[i]>secmx)&&(i!=a)){
-                secmx = salaries[i];
+            if((salaries[i]> secondmx)&&(i!=a)){
+                secondmx = salaries[i];
             }
         }
-        System.out.println(secmx);
+        System.out.println(secondmx);
     }
 }
