@@ -6,6 +6,8 @@ public class Dog {
     int age;
     String color;
 
-    void walk(){};
-    void bark(){};
+    void walk(){}
+    void bark(){
+        System.out.println("Dog barks");
+    }
 }

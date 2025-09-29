@@ -1,5 +1,7 @@
 package package_Army;
 
+import java.sql.SQLOutput;
+
 public class PersonnelTwo extends PersonnelOne{
     public static void main(String[] args) {
         PersonnelOne p2 = new PersonnelOne();

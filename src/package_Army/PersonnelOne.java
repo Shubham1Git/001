@@ -19,4 +19,3 @@ public class PersonnelOne {
         p2.shootAtSight();
     }
 }
-
